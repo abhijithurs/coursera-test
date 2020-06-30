@@ -1,1 +1,102 @@
-style.css
+.box1{
+	width:100px;
+}
+
+
+@media (min-width: 996px){
+.col1{
+	width:30%;
+	margin-left: 8%;
+	
+	float: left;
+}
+.col2{
+	width:30%;
+
+	float: left;
+	margin-left: 1%;
+
+}
+
+.col3{
+	margin-left: 1%;
+	width:30%;
+
+
+	float: left;
+}
+}
+@media(min-width:768px) and (max-width: 995px){
+	.col1{
+		width:48%;
+	
+		float: left;
+
+	}
+	.col2{
+		margin-left: 4%;
+		width:48%;
+		
+		float: left;
+
+	}
+	.col3{
+		width:100%;
+		
+		float: left;
+		margin-top:10px;
+
+	}
+}
+@media (max-width: 767px){
+	.col1{
+		width:100%;float:left;
+		
+	}
+	.col2{
+		width:100%;float:left;
+		
+		margin-top: 10px;
+	}
+	.col3{
+		width:100%;float:left;
+		
+		margin-top: 10px;
+	}
+}
+.row{
+	width:90%;
+
+
+}
+h1{
+	text-align: center;
+}
+.prop{
+	background-color: red;
+/*	border:20px;*/
+	color:white;
+	/*position: absolute;
+
+	top:0px;
+	right:0px;*/
+	float:right;
+	border:2px black solid;
+	border-right: 0;
+	text-align: center;
+	border-top: 0;
+	padding:2%;
+	height: 10%;
+	width: 20%;
+
+
+
+}
+.color
+{
+	background-color: darkgray;
+	border:3px solid black;
+}
+body{
+	font-family: Impact, Charcoal, sans-serif;
+}
